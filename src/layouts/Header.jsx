@@ -37,7 +37,7 @@ export default function Header(){
       >
         <div className="main-container flex justify-between items-center flex-1">
           <div className="logo ">
-            <Link to="/">BONDOKCOFFEE</Link>
+            <HashLink to="/#">BONDOKCOFFEE</HashLink>
           </div>
           <nav className={`absolute w-full left-0 duration-200 ${disSmall? "top-0" : "-top-100"} md:static md:w-auto md:p-0 md:bg-transparent z-999`}>
             <ul className="

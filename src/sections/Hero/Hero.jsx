@@ -1,6 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
 import Mybutton from "../../components/Home/Mybutton";
+import { HashLink } from "react-router-hash-link";
 
 export default function Hero() {
   return (
@@ -27,7 +28,9 @@ export default function Hero() {
               Find delicious hot and cold coffees with the best varieties, calm
               the pleasure and enjoy a good coffee, order now.
             </p>
-            <Mybutton title="Learn More"></Mybutton>
+            <HashLink smooth to="/#about" className="self-start">
+              <Mybutton  title="Learn More"></Mybutton>
+            </HashLink>
           </motion.div>
           <div className="home_images shrink-0 flex justify-center items-center relative order-1 md:order-2 w-90 md:w-100 lg:w-120">
             <motion.div
