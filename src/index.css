@@ -1,0 +1,116 @@
+@import "tailwindcss";
+
+@theme {
+  --color-color1 : hsl(166, 56%, 18%);
+  --color-color2: hsl(166, 80%, 40%);
+  --color-text-color: hsl(166, 95%, 12%);
+  --color-hover:hsl(166, 74%, 34%); 
+  --color-colorGreen : hsl(166, 84%, 29%);
+  --color-hoverGreen : #8fc4af27;
+  --color-hoverGreenboild : #3bb38388;
+  --color-colorGray : #f0f0f0;
+  --color-maingray: #7c7c7c;
+  
+  --font-body: "Montserrat"; 
+  --font-second: "Saira";
+  
+  --text-biggest: 4.5rem;   
+  --text-big: 2.5rem;       
+  --text-h1: 1.5rem;       
+  --tracking-tight-coffee: 1.1;
+}
+@layer base {
+  *, ::after, ::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  .logo a:hover,
+  nav li a.active,
+  nav li a:hover{
+    color:var(--color2-body);
+    transition: .3s;
+  }
+  .logo a,
+  nav li a{
+    font-family:var(--font-second);
+    font-weight: 550;
+    font-size: 14.5px;
+  }
+  a,
+  p,
+  span{
+    font-family: var(--font-body);
+  }
+  body {
+    color: rgb(255, 255, 255);
+  }
+  
+  h1, h2, h3 {
+    font-family: var(--font-second);
+  }
+  html {
+  scroll-behavior: smooth;
+  }
+  /* عشان لما تضغط على لينك السكرول ميبقاش لازق في السقف */
+  section {
+    scroll-margin-top: 80px; 
+  }
+  button {
+    cursor: pointer;
+  }
+}
+@layer components {
+  .main-container {
+    max-width: 1120px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .cart-container {
+    max-width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .second-container{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .main-section{
+    padding: 100px 0;
+  }
+}
+.swiper-pagination-bullet-active {
+  background-color: #000000 !important; 
+  width: 17px !important;
+  border-radius: 5px !important;
+  opacity: 1 !important; 
+  transition: all 0.3s ease-in-out !important;
+}
+
+.swiper-pagination-bullet {
+  background-color: var(--color-color1) !important; 
+  opacity: 1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c0a080; 
+  border: 2px solid #707070; 
+}
+
+::-webkit-scrollbar {
+  width: 0.6rem;
+  background-color: hsl(166, 20%, 30%);
+}
+::-webkit-scrollbar-thumb {
+  background-color: hsl(166, 20%, 40%);
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: hsl(166, 20%, 50%);
+}

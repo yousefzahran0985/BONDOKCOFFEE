@@ -1,0 +1,248 @@
+[
+  {
+    "id": 1,
+    "name": "CLASSIC ICED COFFEE",
+    "image": "/images/products-coffee-1.png",
+    "shortDescription": "Rich espresso mixed with cold milk, salted caramel syrup, and refreshing ice.",
+    "basePrice": 55,
+    "defaultSizeIndex": 1,
+    "counter": 1,
+    "sizes": [
+      { "type": "Small", "extraPrice": 0 },
+      { "type": "Medium", "extraPrice": 15 },
+      { "type": "Large", "extraPrice": 25 },
+      { "type": "ExtraLarge", "extraPrice": 40 }
+    ],
+    "allergens": "<span class='font-bold text-black'>ICE, MILK, VANILLA SYRUP</span> CARAMEL SYRUP [SUGAR, WATER, NATURAL FLAVOR, CITRIC ACID, POTASSIUM SORBATE], <span class='font-bold text-black'>PROTEIN POWDER</span> [WHEY PROTEIN ISOLATE (MILK), SUNFLOWER LECITHIN]  TOASTED COCONUT SYRUP (WATER, SUGAR, NATURAL FLAVORS (COCONUT), CITRIC ACID, POTASSIUM SORBATE], <span class='font-bold text-black'>BREWED ESPRESSO</span> [COFFEE BEANS]",
+    "nutrition": {
+      "calories": 250,
+      "carbohydrates": 30,
+      "protein": 10,
+      "fat": 5,
+      "fat-content": "12%",
+      "caffeine": "150 mg**",
+      "cholesterol": "15 mg"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Iced Spanish Latte",
+    "image": "/images/products-coffee-2.png",
+    "shortDescription": "Specialty coffee blended with sweetened condensed milk for a creamy, cold taste.",
+    "basePrice": 65,
+    "defaultSizeIndex": 1,
+    "sizes": [
+      { "type": "Small", "extraPrice": 0 },
+      { "type": "Medium", "extraPrice": 15 },
+      { "type": "Large", "extraPrice": 25 },
+      { "type": "ExtraLarge", "extraPrice": 40 }
+    ],
+    "allergens": "<span class='font-bold text-black'>ICE, MILK, BREWED ESPRESSO, SUGAR FREE VANILLA SYRUP</span> [WATER, NATURAL FLAVOR, MALTODEXTRIN, CITRIC ACID, XANTHAN GUM, SUCRALOSE, POTASSIUM SORBATE],  <span class='font-bold text-black'> WHEY PROTEIN ISOLATE</span> [WHEY PROTEIN ISOLATE (MILK), SUNFLOWER LECITHIN]",
+      "nutrition": {
+        "calories": 300,
+        "carbohydrates": 35,
+        "protein": 12,
+        "fat": 7,
+        "fat-content": "14%",
+        "caffeine": "180 mg**",
+        "cholesterol": "20 mg"
+      }
+  },
+  {
+    "id": 3,
+    "name": "Iced White Mocha",
+    "image": "/images/products-coffee-3.png",
+    "shortDescription": "White chocolate lovers will enjoy this balanced mix of coffee and milk.",
+    "basePrice": 60,
+    "defaultSizeIndex": 1,
+    "sizes": [
+      { "type": "Small", "extraPrice": 0 },
+      { "type": "Medium", "extraPrice": 15 },
+      { "type": "Large", "extraPrice": 25 },
+      { "type": "ExtraLarge", "extraPrice": 40 }
+    ],
+    "allergens": "<span class='font-bold text-black'>BREWED COFFEE, ICE, TOASTED COCONUT COLD FOAM</span> [VANILLA SWEET CREAM (CREAM (CREAM, MONO AND DIGLYCERIDES, CARRAGEENAN), MILK, VANILLA SYRUP (SUGAR, WATER, NATURAL FLAVORS, POTASSIUM SORBATE, CITRIC ACID)), TOASTED COCONUT SYRUP (WATER, SUGAR, NATURAL FLAVORS (COCONUT), CITRIC ACID, POTASSIUM SORBATE)],  <span class='font-bold text-black'>  VANILLA SYRUP</span> [WHEY PROTEIN ISOLATE (MILK),<span class='font-bold text-black'>TOASTED COCONUT TOPPING</span>  [COCONUT, SUGAR, RICE SYRUP, SALT, NATURAL FLAVOR]",
+      "nutrition": {
+          "calories": 280,
+          "carbohydrates": 32,
+          "protein": 11,
+          "fat": 6,
+          "fat-content": "15%",
+          "caffeine": "160 mg**",
+          "cholesterol": "25 mg"
+        }
+  },
+  {
+    "id": 4,
+    "name": "Iced Americano",
+    "image": "/images/products-coffee-4.png",
+    "shortDescription": "Strong pure espresso diluted with cold water and ice for long-lasting energy.",
+    "basePrice": 45,
+    "defaultSizeIndex": 1,
+    "sizes": [
+      { "type": "Small", "extraPrice": 0 },
+      { "type": "Medium", "extraPrice": 10 },
+      { "type": "Large", "extraPrice": 20 },
+      { "type": "ExtraLarge", "extraPrice": 30 }
+    ],
+    "allergens": "<span class='font-bold text-black'>BREWED COFFEE, ICE, NONDAIRY SWEET CREAM</span> [WATER, SUGAR, CANOLA OIL, SOYMILK (WATER, SOYBEANS), SOY PROTEIN ISOLATE, SOY LECITHIN, OATMILK (WATER, OATS), DIPOTASSIUM PHOSPHATE, NATURAL FLAVOR, MONOPOTASSIUM PHOSPHATE, POTASSIUM HYDROXIDE, GUM ACACIA, SEA SALT, GELLAN GUM],  <span class='font-bold text-black'>  VANILLA SYRUP</span> [WHEY PROTEIN ISOLATE (MILK), SUNFLOWER LECITHIN]",
+      "nutrition": {
+          "calories": 150,
+          "carbohydrates": 20,
+          "protein": 5,
+          "fat": 3,
+          "fat-content": "10%",
+          "caffeine": "200 mg**",
+          "cholesterol": "10 mg"
+        }
+  },
+  {
+    "id": 5,
+    "name": "Iced Bondok Latte",
+    "image": "/images/products-coffee-5.png",
+    "shortDescription": "Bondok's special blend, cold coffee with roasted hazelnut flavor and creamy texture.",
+    "basePrice": 70,
+    "defaultSizeIndex": 1,
+    "sizes": [
+      { "type": "Small", "extraPrice": 0 },
+      { "type": "Medium", "extraPrice": 20 },
+      { "type": "Large", "extraPrice": 35 },
+      { "type": "ExtraLarge", "extraPrice": 50 }
+    ],
+    "allergens": "<span class='font-bold text-black'>Ice, Brewed Coffee, Vanilla Sweet Cream </span> [Cream (Cream, Mono And Diglycerides, Carageenan), Milk, Vanilla Syrup (Sugar, Water, Natural Flavors, Potassium Sorbate, Citric Acid)],   <span class='font-bold text-black'> Vanilla Syrup</span> [Sugar, Water, Natural Flavors, Potassium Sorbate, Citric Acid]",
+      "nutrition": {
+          "calories": 320,
+          "carbohydrates": 40,
+          "protein": 15,
+          "fat": 8,
+          "fat-content": "20%",
+          "caffeine": "180 mg**",
+          "cholesterol": "35 mg"
+        }
+  },
+  {
+    "id": 6,
+    "name": "Coffee Frappuccino",
+    "image": "/images/products-coffee-6.png",
+    "shortDescription": "Blended iced coffee with cream, giving you a thick and delicious texture.",
+    "basePrice": 75,
+    "defaultSizeIndex": 1,
+    "sizes": [
+      { "type": "Small", "extraPrice": 0 },
+      { "type": "Medium", "extraPrice": 15 },
+      { "type": "Large", "extraPrice": 30 },
+      { "type": "ExtraLarge", "extraPrice": 45 }
+    ],
+    "allergens": "<span class='font-bold text-black'>WATER, BREWED COFFEE, ICE, NONDAIRY SWEET CREAM  </span> [WATER, SUGAR, CANOLA OIL, SOYMILK (WATER, SOYBEANS), SOY PROTEIN ISOLATE, SOY LECITHIN, OATMILK (WATER, OATS), DIPOTASSIUM PHOSPHATE, NATURAL FLAVOR, MONOPOTASSIUM PHOSPHATE, POTASSIUM HYDROXIDE, GUM ACACIA, SEA SALT, GELLAN GUM],<span class='font-bold text-black'> Vanilla Syrup</span> [SUGAR, WATER, NATURAL FLAVORS, POTASSIUM SORBATE, CITRIC ACID], <span class='font-bold text-black'> MOCHA POWDER</span> [SUGAR, COCOA PROCESSED WITH ALKALI, NATURAL FLAVOR]",
+      "nutrition": {
+          "calories": 350,
+          "carbohydrates": 45,
+          "protein": 8,
+          "fat": 10,
+          "fat-content": "21%",
+          "caffeine": "170 mg**",
+          "cholesterol": "30 mg"
+        }
+  },
+  {
+    "id": 7,
+    "popular":true,
+    "name": "Iced White Mocha",
+    "image": "/images/popular-coffee-1.png",
+    "shortDescription": "White chocolate lovers will enjoy this balanced mix of coffee and milk.",
+    "basePrice": 60,
+    "defaultSizeIndex": 1,
+    "sizes": [
+      { "type": "Small", "extraPrice": 0 },
+      { "type": "Medium", "extraPrice": 15 },
+      { "type": "Large", "extraPrice": 25 },
+      { "type": "ExtraLarge", "extraPrice": 40 }
+    ],
+    "allergens": "<span class='font-bold text-black'>BREWED COFFEE, ICE, TOASTED COCONUT COLD FOAM</span> [VANILLA SWEET CREAM (CREAM (CREAM, MONO AND DIGLYCERIDES, CARRAGEENAN), MILK, VANILLA SYRUP (SUGAR, WATER, NATURAL FLAVORS, POTASSIUM SORBATE, CITRIC ACID)), TOASTED COCONUT SYRUP (WATER, SUGAR, NATURAL FLAVORS (COCONUT), CITRIC ACID, POTASSIUM SORBATE)],  <span class='font-bold text-black'>  VANILLA SYRUP</span> [WHEY PROTEIN ISOLATE (MILK),<span class='font-bold text-black'>TOASTED COCONUT TOPPING</span>  [COCONUT, SUGAR, RICE SYRUP, SALT, NATURAL FLAVOR]",
+      "nutrition": {
+          "calories": 280,
+          "carbohydrates": 32,
+          "protein": 11,
+          "fat": 6,
+          "fat-content": "15%",
+          "caffeine": "160 mg**",
+          "cholesterol": "25 mg"
+        }
+  },
+  {
+    "id": 8,
+    "popular":true,
+    "name": "Iced Americano",
+    "image": "/images/popular-coffee-2.png",
+    "shortDescription": "Strong pure espresso diluted with cold water and ice for long-lasting energy.",
+    "basePrice": 45,
+    "defaultSizeIndex": 1,
+    "sizes": [
+      { "type": "Small", "extraPrice": 0 },
+      { "type": "Medium", "extraPrice": 10 },
+      { "type": "Large", "extraPrice": 20 },
+      { "type": "ExtraLarge", "extraPrice": 30 }
+    ],
+    "allergens": "<span class='font-bold text-black'>BREWED COFFEE, ICE, NONDAIRY SWEET CREAM</span> [WATER, SUGAR, CANOLA OIL, SOYMILK (WATER, SOYBEANS), SOY PROTEIN ISOLATE, SOY LECITHIN, OATMILK (WATER, OATS), DIPOTASSIUM PHOSPHATE, NATURAL FLAVOR, MONOPOTASSIUM PHOSPHATE, POTASSIUM HYDROXIDE, GUM ACACIA, SEA SALT, GELLAN GUM],  <span class='font-bold text-black'>  VANILLA SYRUP</span> [WHEY PROTEIN ISOLATE (MILK), SUNFLOWER LECITHIN]",
+      "nutrition": {
+          "calories": 150,
+          "carbohydrates": 20,
+          "protein": 5,
+          "fat": 3,
+          "fat-content": "10%",
+          "caffeine": "200 mg**",
+          "cholesterol": "10 mg"
+        }
+  },
+  {
+    "id": 9,
+    "popular":true,
+    "name": "Iced Bondok Latte",
+    "image": "/images/popular-coffee-3.png",
+    "shortDescription": "Bondok's special blend, cold coffee with roasted hazelnut flavor and creamy texture.",
+    "basePrice": 70,
+    "defaultSizeIndex": 1,
+    "sizes": [
+      { "type": "Small", "extraPrice": 0 },
+      { "type": "Medium", "extraPrice": 20 },
+      { "type": "Large", "extraPrice": 35 },
+      { "type": "ExtraLarge", "extraPrice": 50 }
+    ],
+    "allergens": "<span class='font-bold text-black'>Ice, Brewed Coffee, Vanilla Sweet Cream </span> [Cream (Cream, Mono And Diglycerides, Carageenan), Milk, Vanilla Syrup (Sugar, Water, Natural Flavors, Potassium Sorbate, Citric Acid)],   <span class='font-bold text-black'> Vanilla Syrup</span> [Sugar, Water, Natural Flavors, Potassium Sorbate, Citric Acid]",
+      "nutrition": {
+      "calories": 320,
+      "carbohydrates": 40,
+      "protein": 15,
+      "fat": 8,
+      "fat-content": "20%",
+      "caffeine": "180 mg**",
+      "cholesterol": "35 mg"
+    }
+  },
+  {
+    "id": 10,
+    "popular":true,
+    "name": "CLASSIC ICED COFFEE",
+    "image": "/images/products-coffee-1.png",
+    "shortDescription": "Rich espresso mixed with cold milk, salted caramel syrup, and refreshing ice.",
+    "basePrice": 55,
+    "defaultSizeIndex": 1,
+    "counter": 1,
+    "sizes": [
+      { "type": "Small", "extraPrice": 0 },
+      { "type": "Medium", "extraPrice": 15 },
+      { "type": "Large", "extraPrice": 25 },
+      { "type": "ExtraLarge", "extraPrice": 40 }
+    ],
+    "allergens": "<span class='font-bold text-black'>ICE, MILK, VANILLA SYRUP</span> CARAMEL SYRUP [SUGAR, WATER, NATURAL FLAVOR, CITRIC ACID, POTASSIUM SORBATE], <span class='font-bold text-black'>PROTEIN POWDER</span> [WHEY PROTEIN ISOLATE (MILK), SUNFLOWER LECITHIN]  TOASTED COCONUT SYRUP (WATER, SUGAR, NATURAL FLAVORS (COCONUT), CITRIC ACID, POTASSIUM SORBATE], <span class='font-bold text-black'>BREWED ESPRESSO</span> [COFFEE BEANS]",
+    "nutrition": {
+      "calories": 250,
+      "carbohydrates": 30,
+      "protein": 10,
+      "fat": 5,
+      "fat-content": "12%",
+      "caffeine": "150 mg**",
+      "cholesterol": "15 mg"
+    }
+  }
+]
