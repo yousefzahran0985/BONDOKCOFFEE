@@ -114,3 +114,19 @@
 ::-webkit-scrollbar-thumb:hover {
   background-color: hsl(166, 20%, 50%);
 }
+
+:root {
+  --toastify-color-error: #ef4444;  
+  --toastify-color-warning: #f59e0b;
+}
+
+
+.Toastify__toast--success {
+  background-color: var(--color-color1) !important;
+  color: #ecf0f1 !important;            
+  border-radius: 8px;
+}
+
+.Toastify__toast--success .Toastify__toast-icon {
+  fill: #f1c40f !important;
+}

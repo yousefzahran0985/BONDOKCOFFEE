@@ -78,7 +78,6 @@ const ItemCart = ({ product,setIsDeleteModalOpen ,setItemToDelete}) => {
               e.preventDefault();
               setIsDeleteModalOpen(true)
               setItemToDelete(product)
-              
             }}
             className="text-red-600 text-[15px] p-2.5 border bg-[#f33a3a2c] hover:text-white hover:bg-red-600 duration-300 rounded-xl cursor-pointer  order-1 md:order-0"
           >

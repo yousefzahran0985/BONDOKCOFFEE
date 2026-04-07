@@ -3,6 +3,7 @@ import CustomizedProduct from "../../components/BroductDetails/CustomizedProduct
 import { useState, useEffect } from "react";
 import { IoClose } from "react-icons/io5";
 import { useProducts } from "../../context/MyProduts";
+import { toast ,Bounce } from 'react-toastify';
 
 export const QuickAddModal = ({ product, onClose }) => {
   const [count, setCount] = useState(1);
@@ -29,6 +30,7 @@ export const QuickAddModal = ({ product, onClose }) => {
       onClick={onClose}
       className="fixed bg-[#0505059a] left-[50%] translate-x-[-50%] top-[50%] translate-y-[-50%] w-full h-full z-1100 flex items-center justify-center p-4"
     >
+      
       <div
         onClick={(e) => e.stopPropagation()}
         className="relative bg-white w-full top-0 max-w-md rounded-3xl p-6 shadow-2xl z-10 "
@@ -63,8 +65,20 @@ export const QuickAddModal = ({ product, onClose }) => {
           <div className="buttons"></div>
           <button
             onClick={(e) => {
+              
               onClose;
               e.preventDefault();
+              toast.success('Added to cart!', {
+                position: "top-right",
+                autoClose: 2000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+                theme: "colored",
+                transition: Bounce,
+                });
               const selectSizePrice = product.sizes.find(
                 (s) => s.type === size,
               ).extraPrice;

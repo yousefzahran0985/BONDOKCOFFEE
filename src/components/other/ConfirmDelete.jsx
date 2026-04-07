@@ -1,7 +1,7 @@
 import { FaRegTrashAlt } from "react-icons/fa";
 import { useEffect } from "react";
 import {useProducts} from "../../context/MyProduts"
-
+import { toast ,Bounce } from 'react-toastify';
 
 const ConfirmDelete = ({ onConfirm, onCancel, itemToDelete ,removeAllItems}) => {
   
@@ -50,6 +50,17 @@ const ConfirmDelete = ({ onConfirm, onCancel, itemToDelete ,removeAllItems}) => 
             </button>
             <button
               onClick={()=>{
+                toast.warn('Deleted item from cart', {
+                position: "top-right",
+                autoClose: 2000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+                theme: "colored",
+                transition: Bounce,
+              });
                 if(removeAllItems){
                   setItemsCart([]) 
                 }else{

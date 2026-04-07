@@ -4,6 +4,7 @@ import { useState } from "react";
 import { useProducts } from "../../context/MyProduts";
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
+import { toast ,Bounce } from 'react-toastify';
 
 const TopBroductDetails = ({ product }) => {
   const [count, setCount] = useState(1);
@@ -60,6 +61,17 @@ const TopBroductDetails = ({ product }) => {
             className="w-full flex-1 bg-white text-color1 cursor-pointer hover:bg-color1 hover:text-white 
               duration-300 border-2 border-color1 lg:text-[19px] py-2.5"
             onClick={(e) => {
+              toast.success('Added to cart!', {
+                position: "top-right",
+                autoClose: 2000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+                theme: "colored",
+                transition: Bounce,
+                });
               e.preventDefault();
               const selectSizePrice = product.sizes.find(
                 (s) => s.type === Size,

@@ -6,7 +6,10 @@ export const MyProducts = createContext();
 
 export const MyProvider = ({ children }) => {
   const [productsData, setProductsData] = useState([]);
-  const [itemsCart, setItemsCart] = useState([]);
+  const [itemsCart, setItemsCart] = useState(() => {
+    const savedCart = localStorage.getItem("cart");
+    return savedCart ? JSON.parse(savedCart) : [];
+  });
 
   useEffect( () => {
     const fetchProductsData = async () => {
@@ -21,6 +24,10 @@ export const MyProvider = ({ children }) => {
     fetchProductsData();
   }, []);
 
+  useEffect(() => {
+    localStorage.setItem("cart", JSON.stringify(itemsCart));
+  }, [itemsCart]);
+  
   return (
     <MyProducts.Provider value={{ productsData, itemsCart, setItemsCart }}>
       {children}

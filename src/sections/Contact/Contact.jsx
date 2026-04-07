@@ -63,7 +63,7 @@ export default function Contact(){
           </motion.div>
           <motion.div 
             variants={scrollBart}
-            initial ="hidden"
+            initial ="hidden"ب
             whileInView="visible"
             viewport={{ once: true, amount: 0.3 }} 
             className="location">
@@ -90,7 +90,7 @@ export default function Contact(){
             initial ="hidden"
             whileInView="visible"
             viewport={{ once: true, amount: 0.4}} 
-            className="w-[65%] mask-[linear-gradient(to_bottom,black_80%,transparent_100%)] " src="/images/yousef.png" alt="" />
+            className="w-[65%] mask-[linear-gradient(to_bottom,black_80%,transparent_100%)] " src="/images/yousef3.png" alt="" />
         </motion.div>
         <div className="
         information order-1 lg:order-2 flex justify-evenly items-center
