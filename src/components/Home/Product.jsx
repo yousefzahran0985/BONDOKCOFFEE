@@ -27,11 +27,11 @@ export default function Product({ product ,setIsModalOpen ,setItemQuickAdd}) {
         variants={scrollProduct}
         whileInView="visible"
         viewport={{ once: true, amount: 0.3 }}
-        className="product w-65 h-80 bg-[#13382a] flex flex-col justify-center items-center p-4 relative self-center"
+        className="product w-65 h-80 bg-color1 flex flex-col justify-center items-center p-4 relative self-center group"
       >
         <Link to={`/product/${product.id}`} >
         
-        <div className="foto_product bg-color2 w-45 h-45 rounded-[50%] flex items-center justify-center relative">
+        <div className="foto_product bg-color2 w-45 h-45 rounded-[50%] flex items-center justify-center relative group-hover:bg-[#a6d8c1] duration-300">
           <motion.img
             variants={childAnimation}
             transition={{ ease: "easeOut", duration: 0.3, type: "spring" }}
@@ -56,9 +56,11 @@ export default function Product({ product ,setIsModalOpen ,setItemQuickAdd}) {
           />
         </div>
         </Link>
-        <h3 className="text-[22px] font-medium self-start mt-3">
-          {product.name}
-        </h3>
+        <Link to={`/product/${product.id}`} className="self-start">
+          <h3 className="text-[22px] font-medium  mt-3 group-hover:underline duration-300 ">
+            {product.name}
+          </h3>
+        </Link>
         <span className="text-color2 text-[22px] self-start font-medium">
           {product.basePrice} EGY
         </span>
