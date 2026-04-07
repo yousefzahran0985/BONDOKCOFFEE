@@ -50,7 +50,10 @@ const ConfirmDelete = ({ onConfirm, onCancel, itemToDelete ,removeAllItems}) => 
             </button>
             <button
               onClick={()=>{
-                toast.warn('Deleted item from cart', {
+                
+                if(removeAllItems){
+                  setItemsCart([]) 
+                  toast.error('Deleted All Items From Cart', {
                 position: "top-right",
                 autoClose: 2000,
                 hideProgressBar: false,
@@ -61,11 +64,21 @@ const ConfirmDelete = ({ onConfirm, onCancel, itemToDelete ,removeAllItems}) => 
                 theme: "colored",
                 transition: Bounce,
               });
-                if(removeAllItems){
-                  setItemsCart([]) 
                 }else{
                   onConfirm();
+                  toast.warn('Deleted Item From Cart', {
+                position: "top-right",
+                autoClose: 2000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+                theme: "colored",
+                transition: Bounce,
+              });
                 }
+                
                 onCancel();
               }}
               className="w-25 py-2.5 bg-red-500 hover:bg-red-600 text-white font-medium rounded-xl transition duration-300"
