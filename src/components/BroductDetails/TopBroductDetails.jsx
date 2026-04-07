@@ -20,7 +20,7 @@ const TopBroductDetails = ({ product }) => {
   return (
     <div className="ProductDetails pt-33 main-container flex flex-col md:flex-row justify-center lg:gap-20 gap-10">
       <div className="imagesProductDetails flex flex-col gap-10 lg:flex-1 md:flex-.8">
-        <div className="images bg-color2 p-5 rounded-lg self-center">
+        <div className="images bg-color2 w-70 py-10 rounded-lg self-center flex justify-center">
           <img className="w-30" src={product?.image} alt={product?.name} />
         </div>
         <SizeProduct size={Size} setSize={setSize} />

@@ -2,6 +2,7 @@ import { FaPlus } from "react-icons/fa6";
 import { FaMinus } from "react-icons/fa6";
 import { FaTrash } from "react-icons/fa";
 import { useProducts } from "../../context/MyProduts";
+import { Link } from "react-router-dom";
 
 
 const ItemCart = ({ product,setIsDeleteModalOpen ,setItemToDelete}) => {
@@ -25,17 +26,21 @@ const ItemCart = ({ product,setIsDeleteModalOpen ,setItemToDelete}) => {
   return (
     <>
       <div className="itemProduct border-gray-300 border rounded-2xl bg-white flex gap-4 p-5 md:flex-row md:items-center w-full flex-col md:w-162.5">
-        <div className="box1 md:w-35 w-20">
-          <img
-            src={product.image}
-            alt={product.name}
-            className="w-26 object-cover"
-          />
-        </div>
+        <Link to={`/product/${product.id}`} >
+          <div className="box1 md:w-35 w-20">
+            <img
+              src={product.image}
+              alt={product.name}
+              className="w-26 object-cover"
+              />
+          </div>
+        </Link>
         <div className="info flex-1 flex flex-col justify-between items-start gap-2">
-          <h3 className="lg:text-2xl md:text-xl font-medium ">
-            {product.name}
-          </h3>
+          <Link to={`/product/${product.id}`} >
+            <h3 className="lg:text-2xl md:text-xl font-medium hover:underline duration-300">
+              {product.name}
+            </h3>
+          </Link>
           <div className="details flex items-center lg:gap-5 md:gap-3 gap-1">
             <p className="lg:text-[12px] text-[10px]  text-green-900 bg-[#73dfa41a] p-1.5 rounded-lg">
               {"Size " + product.size}

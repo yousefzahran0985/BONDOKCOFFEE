@@ -146,3 +146,10 @@
     font-size: 12px !important;  
   }
 }
+.swiper {
+  cursor: grab;
+}
+
+.swiper:active {
+  cursor: grabbing;
+}

@@ -27,7 +27,7 @@
   {
     "id": 2,
     "name": "Iced Spanish Latte",
-    "image": "/images/products-coffee-2.png",
+    "image": "/images/products-coffee-10.png",
     "shortDescription": "Specialty coffee blended with sweetened condensed milk for a creamy, cold taste.",
     "basePrice": 65,
     "defaultSizeIndex": 1,
@@ -123,7 +123,7 @@
   {
     "id": 6,
     "name": "Coffee Frappuccino",
-    "image": "/images/products-coffee-6.png",
+    "image": "/images/products-coffee-6 (2).png",
     "shortDescription": "Blended iced coffee with cream, giving you a thick and delicious texture.",
     "basePrice": 75,
     "defaultSizeIndex": 1,
