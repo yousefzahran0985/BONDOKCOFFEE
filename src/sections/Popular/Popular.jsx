@@ -38,7 +38,7 @@ export default function Popular() {
           <Swiper modules={[Autoplay, Pagination]} simulateTouch={true} grabCursor={true} pagination={{
               clickable: true,
               dynamicBullets: true,
-            }} loop={true} breakpoints={{768: {slidesPerView: 2,},1024: {slidesPerView: 3,},}}  autoplay={{
+            }} loop={products.filter((product) => product.popular).length > 3} breakpoints={{768: {slidesPerView: 2,},1024: {slidesPerView: 3,},}}  autoplay={{
               delay: 3500,
               disableOnInteraction: false,
               pauseOnMouseEnter: true,

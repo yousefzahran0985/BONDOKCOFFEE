@@ -63,7 +63,7 @@ export default function Contact(){
           </motion.div>
           <motion.div 
             variants={scrollBart}
-            initial ="hidden"ب
+            initial ="hidden"
             whileInView="visible"
             viewport={{ once: true, amount: 0.3 }} 
             className="location">
