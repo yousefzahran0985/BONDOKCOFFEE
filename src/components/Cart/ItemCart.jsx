@@ -25,7 +25,7 @@ const ItemCart = ({ product,setIsDeleteModalOpen ,setItemToDelete}) => {
   };
   return (
     <>
-      <div className="itemProduct border-gray-300 border rounded-2xl bg-white flex gap-4 p-5 md:flex-row md:items-center w-full flex-col md:w-162.5">
+      <div className="itemProduct border-gray-300 border rounded-2xl bg-white flex gap-4 p-5 md:flex-row md:items-center w-full flex-col ">
         <Link to={`/product/${product.id}`} >
           <div className="box1 md:w-35 w-20">
             <img

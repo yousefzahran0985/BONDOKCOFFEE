@@ -45,7 +45,7 @@ const Cart = () => {
         
         {itemsCart?.length > 0 ? (
           <>
-            <div className="cart-container bg-gray-50 flex gap-10 flex-col lg:flex-row md:items-center lg:items-start justify-center">
+            <div className="cart-container bg-gray-50 flex gap-10 flex-col lg:flex-row md:items-center lg:items-start lg:justify-evenly">
             <div className="">
               <div className="mb-3 text-sm">
                 <Link to="/" className="text-gray-600 hover:text-color2 ">Home</Link> / Shopping Cart
